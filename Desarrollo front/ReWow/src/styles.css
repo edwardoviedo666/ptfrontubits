@@ -1,0 +1,137 @@
+@import url("assets/icomoon-v1.0/style.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rage Italic', sans-serif;
+}
+
+*:focus {
+  outline: 0px;
+}
+
+:root {
+  --ligth-green: #89c971;
+  --dark-green: #65BA69;
+  --dark-gray: #536D79;
+  --ligth-gray: #f0f0f0;
+  --ligth-gray-2: #fbfbfb;
+  --sea-water: #62baaa;
+  --white: #ffffff;
+  --coral: #ff7075;
+  --blue: #25ccff;
+  --purple: #ff4fbb;
+}
+
+.icon-white {
+  color: var(--white);
+}
+
+.color-gray {
+  color: var(--dark-gray);
+}
+
+.color-coral {
+  color: var(--coral);
+}
+
+.color-purple {
+  color: var(--purple);
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
+.color-link {
+  color: var(--sea-water);
+}
+
+.color-link:hover {
+  border-bottom: 2px solid var(--sea-water);
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/**btns**/
+
+.btn-white {
+  display: inline-block;
+  padding: 20px 100px;
+  cursor: pointer;
+  border: 3px solid var(--dark-green);;
+  background-color: var(--white);
+  color: var(--dark-gray);
+}
+
+.btn-white:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-white:focus {
+  color: var(--ligth-green);
+  border: 3px solid var(--ligth-green);;
+}
+
+.btn-sea {
+  display: inline-block;
+  padding: 15px 40px;
+  cursor: pointer;
+  background-color: var(--sea-water);
+  color: var(--ligth-gray);
+  border: none;
+}
+
+.btn-sea:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-sea:active {
+  color: var(--dark-gray);
+}
+
+/**btns**/
+
+
+/*image default*/
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: var(--dark-green);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position-icon {
+  position: absolute;
+  font-size: 50px;
+  padding-bottom: 8px;
+  color: var(--ligth-green);
+}
+
+.thumbnail > i {
+  color: white;
+  font-size: 90px;
+}
+
+
+/*image default*/

@@ -1,0 +1,14 @@
+.wrap {
+  background-color: var(--white);
+  height: 95vh;
+  width: 70vh;
+}
+
+.header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 3px solid var(--ligth-gray);
+}
+

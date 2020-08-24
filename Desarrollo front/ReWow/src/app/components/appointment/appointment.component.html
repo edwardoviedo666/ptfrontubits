@@ -1,0 +1,10 @@
+<div class="wrap">
+  <div class="header-box">
+    <button class="btn-white" (click)="openModal('idModalAppointment')">Nueva cita</button>
+  </div>
+  <app-items-history [items]="items"></app-items-history>
+</div>
+
+<app-request-appointment [medicalServices]="medicalServices" [id]="'idModalAppointment'" (sendIdDisplay)="closeModal($event)"></app-request-appointment>
+
+

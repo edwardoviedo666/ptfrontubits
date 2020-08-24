@@ -1,0 +1,13 @@
+.item {
+  border-bottom: 3px solid var(--ligth-gray);;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text-description {
+  display: flex;
+  flex-direction: column;
+}
+

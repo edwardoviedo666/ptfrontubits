@@ -1,0 +1,27 @@
+.main {
+  display: grid;
+  grid-template-columns: 20vw auto;
+  grid-template-areas: 'menu content';
+  height: 100vh;
+}
+
+.menu {
+  grid-area: menu;
+  box-shadow: 2px 1px 4px rgba(153, 153, 153, 0.58);
+}
+
+.content {
+  grid-area: content;
+}
+
+.components {
+  background-color: var(--ligth-gray);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+

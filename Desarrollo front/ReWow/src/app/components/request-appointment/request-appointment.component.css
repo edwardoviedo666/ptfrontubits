@@ -1,0 +1,101 @@
+.wrap {
+  color: var(--dark-gray);
+}
+
+.header {
+  padding: 1.5rem;
+  background-color: var(--ligth-gray-2);
+  border-bottom: 2px solid var(--ligth-gray);;
+}
+
+.appointment-box {
+  background-color: var(--white);
+  padding: 2rem 6rem;
+}
+
+.box-service {
+  margin: 20px 0 20px 0;
+  border-bottom: 2px solid var(--ligth-gray);
+
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 90px;
+  margin: 20px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: var(--sea-water);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (check) */
+.container .checkmark:after {
+  content: "\2714";
+  color: white;
+  left: 15%;
+  top: -4px;
+}
+
+.box-date {
+  padding: 10px 0 30px 0;
+  border-bottom: 2px solid var(--ligth-gray);
+  text-align: center;
+}
+
+.date {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid var(--dark-gray);
+  color: var(--dark-gray);
+  width: 200px;
+}
+
+.box-btn{
+  text-align: right;
+  margin-top: 30px;
+}

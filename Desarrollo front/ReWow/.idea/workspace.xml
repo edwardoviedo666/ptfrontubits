@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6605d5c-2026-4150-8b7d-ef927fe219a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/Infraestructure/services/medical-history.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Infraestructure/services/pet.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/_modal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/_modal/modal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/_modal/modal.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/_modal/modal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/_modal/modal.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/_modal/modal.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/appointment/appointment.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/appointment/appointment.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/appointment/appointment.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/components-routing-module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/components.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/history/history.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/history/history.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/history/history.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/items-history/items-history.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/items-history/items-history.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/items-history/items-history.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/layouts/layouts.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/layouts/menu/menu.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/layouts/menu/menu.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/layouts/menu/menu.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/layouts/page-not-found/page-not-found.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/layouts/page-not-found/page-not-found.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/layouts/page-not-found/page-not-found.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/main/main.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/main/main.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/main/main.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/pet-data/pet-data.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/pet-data/pet-data.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/pet-data/pet-data.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/request-appointment/request-appointment.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/request-appointment/request-appointment.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/request-appointment/request-appointment.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/domain/DescriptionHistoryDTO.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/domain/MedicalServiceDTO.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/domain/PetDTO.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icomoon-v1.0/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icomoon-v1.0/demo-files/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icomoon-v1.0/demo-files/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icomoon-v1.0/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icomoon-v1.0/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icomoon-v1.0/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icomoon-v1.0/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icomoon-v1.0/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icomoon-v1.0/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icomoon-v1.0/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gQknCH7OopBFyvttgDbnwJn8Ja" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/assets/icomoon (1)/demo-files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="ts.external.directory.path" value="C:\UBITS\ReWow\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\UBITS\ReWow\src\assets" />
+      <recent name="C:\UBITS\ReWow\src\assets\icomoon (1)" />
+      <recent name="C:\UBITS\ReWow\src\app\components" />
+      <recent name="C:\UBITS\ReWow\src\app\components\_modal" />
+      <recent name="C:\UBITS\ReWow\src\assets\icomoon (1)\demo-files" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\UBITS\ReWow\src\app\components" />
+      <recent name="C:\UBITS\ReWow\src\app\Infraestructure\services" />
+      <recent name="C:\UBITS\ReWow\src\app\Infraestructure\services\medicalHistory" />
+      <recent name="C:\UBITS\ReWow\src\app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6605d5c-2026-4150-8b7d-ef927fe219a3" name="Default Changelist" comment="" />
+      <created>1598054367690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598054367690</updated>
+      <workItem from="1598054371240" duration="3875000" />
+      <workItem from="1598108403112" duration="39434000" />
+      <workItem from="1598196467315" duration="19327000" />
+      <workItem from="1598232242845" duration="6622000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

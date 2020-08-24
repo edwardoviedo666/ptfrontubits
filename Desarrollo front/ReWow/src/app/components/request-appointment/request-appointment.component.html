@@ -1,0 +1,30 @@
+<jw-modal [id]="id" class="wrap">
+  <div class="header">
+    <span (click)="closeModal(id)" class="icon-arrow-left pointer font-30"></span>
+  </div>
+  <div class="appointment-box">
+    <h2>Pedir cita</h2>
+
+    <div class="box-service">
+      <div *ngFor="let item of medicalServices; let i = index">
+        <label *ngIf="i==0" class="container">{{item.name}}
+          <input (click)="selectService(item.id)" type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label *ngIf="i>0" class="container">{{item.name}}
+          <input (click)="selectService(item.id)" type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+    </div>
+
+    <div class="box-date">
+      <input class="date" type="date"
+             min="2020-07-31" max="2021-12-31">
+    </div>
+    <div class="box-btn">
+      <button class="btn-sea" (click)="requestAppointment()">Pedir cita</button>
+    </div>
+  </div>
+
+</jw-modal>
